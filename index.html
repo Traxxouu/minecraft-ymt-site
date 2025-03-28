@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Serveur Minecraft Cobblemon Star Academy officiel de la YM TEAM. Vivez l'aventure Pokémon, participez à des tournois, et rejoignez une communauté active de dresseurs.">
+    <meta name="keywords" content="Minecraft, Pokémon, Cobblemon, Star Academy, YM TEAM, serveur minecraft, serveur pokémon, minecraft mods, jeu en ligne">
+    <meta name="author" content="YM TEAM">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="French">
+    <meta name="revisit-after" content="7 days">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://minecraft-ymt-server.netlify.app/">
+    <meta property="og:title" content="Cobblemon Star Academy - Serveur Pokémon Minecraft | YM TEAM">
+    <meta property="og:description" content="Rejoignez l'aventure Pokémon dans Minecraft sur le serveur officiel de la YM TEAM">
+    <meta property="og:image" content="https://minecraft-ymt-server.netlify.app/media/social-preview.webp">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://minecraft-ymt-server.netlify.app/">
+    <meta property="twitter:title" content="Cobblemon Star Academy - YM TEAM">
+    <meta property="twitter:description" content="Serveur Minecraft Pokémon officiel de la YM TEAM">
+    <meta property="twitter:image" content="https://minecraft-ymt-server.netlify.app/media/social-preview.webp">
+    <link rel="canonical" href="https://minecraft-ymt-server.netlify.app/">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Cobblemon Star Academy YM TEAM",
+        "url": "https://minecraft-ymt-server.netlify.app/",
+        "description": "Serveur Minecraft Cobblemon Star Academy officiel de la YM TEAM",
+        "potentialAction": {
+            "@type": "JoinAction",
+            "target": "https://minecraft-ymt-server.netlify.app/#join",
+            "name": "Rejoindre le serveur"
+        },
+        "author": {
+            "@type": "Organization",
+            "name": "YM TEAM",
+            "url": "https://ymteam.fr",
+            "logo": "https://minecraft-ymt-server.netlify.app/media/logoYMTEAM.webp",
+            "sameAs": [
+                "https://discord.gg/Yys5D9YAY6",
+                "https://www.youtube.com/@Yokomen",
+                "https://www.twitch.tv/ymteam"
+            ]
+        }
+    }
+    </script>
+    <link rel="icon" type="image/webp" href="media/logoYMTEAM.webp">
+    <link rel="shortcut icon" type="image/webp" href="media/logoYMTEAM.webp">
+    <link rel="apple-touch-icon" href="media/logoYMTEAM.webp">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml">
+    <title>Cobblemon Star Academy - Serveur Pokémon Minecraft | YM TEAM</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="pokeball-loader">
+            <div class="pokeball">
+                <div class="pokeball-button"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-container">
+            <a href="#" class="logo">
+                <img src="media/logoYMTEAM.webp" alt="Logo de la YM TEAM">
+                <div class="logo-text">YM <span>TEAM</span></div>
+            </a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home" class="nav-link">Accueil</a></li>
+                    <li><a href="Reglement/reglement.html" class="nav-link">Règlement</a></li>
+                    <li><a href="GuideInstall/guide.html" class="nav-link">Guide d'installation</a></li>
+                    <li><a href="#faq" class="nav-link">FAQ</a></li>
+                </ul>
+                <a href="#join" class="connect-button">
+                    <span class="btn-text">Rejoindre</span>
+                    <span class="btn-icon"><i class="fas fa-arrow-right"></i></span>
+                </a>
+            </nav>
+            <div class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-container">
+            <ul>
+                <li><a href="#home" class="mobile-link">Accueil</a></li>
+                <li><a href="Reglement/reglement.html" class="mobile-link">Règlement</a></li>
+                <li><a href="GuideInstall/guide.html" class="mobile-link">Guide d'installation</a></li>
+                <li><a href="#faq" class="mobile-link">FAQ</a></li>
+            </ul>
+            <div class="mobile-social">
+                <a href="https://discord.gg/Yys5D9YAY6" target="_blank" class="social-icon discord">
+                    <i class="fab fa-discord"></i>
+                </a>
+                <a href="https://www.youtube.com/@Yokomen" target="_blank" class="social-icon youtube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="https://www.twitch.tv/ymteam" target="_blank" class="social-icon twitch">
+                    <i class="fab fa-twitch"></i>
+                </a>
+            </div>
+            <a href="#join" class="mobile-connect-button">
+                <span>Rejoindre le serveur</span>
+                <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="particles"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Cobblemon</span> 
+                    <span class="hero-title-line">Star Academy</span>
+                    <span class="gradient-text">YMT</span> 
+                </h1>
+                <p class="hero-description">
+                    Rejoignez l'aventure Pokémon dans Minecraft comme jamais auparavant. 
+                    Dressez vos Pokémon, combattez et devenez le meilleur dresseur YMT.
+                </p>
+                <div class="game-logos">
+                    <img loading="lazy" src="media/logoMinecraft.webp" alt="Logo Minecraft" class="game-logo">
+                    <img loading="lazy" src="media/cobblemonLOGO.webp" alt="Logo Cobblemon" class="game-logo">
+                    <img loading="lazy" src="media/logoYMTEAM.webp" alt="Logo YM TEAM" class="game-logo">
+                </div>
+                <div class="hero-buttons">
+                    <a href="#join" class="primary-button">
+                        <span class="btn-text">Rejoindre le serveur</span>
+                        <span class="btn-icon"><i class="fas fa-arrow-right"></i></span>
+                    </a>
+                    <a href="#server" class="secondary-button">
+                        <span class="btn-text">En savoir plus</span>
+                        <span class="btn-icon"><i class="fas fa-info-circle"></i></span>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-image-container">
+                    <img 
+                        src="media/CobblemonImage.webp" 
+                        alt="Illustration d'un personnage Minecraft avec Cobblemon" 
+                        class="hero-image"
+                        loading="lazy"
+                    >
+                </div>
+                <div class="floating-elements">
+                    <div class="floating-pokeball floating-item"></div>
+                    <div class="floating-star floating-item"></div>
+                    <div class="floating-cube floating-item"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div class="scroll-text">Défiler pour découvrir</div>
+        </div>
+    </section>
+
+    <!-- Server Info Section -->
+    <section class="server-info" id="server">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Notre serveur <span class="gradient-text">Cobblemon</span></h2>
+                <p class="section-subtitle">Découvrez une expérience unique alliant Minecraft et Pokémon</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon-container">
+                        <i class="fas fa-gamepad feature-icon"></i>
+                    </div>
+                    <h3 class="feature-title">Star Academy</h3>
+                    <p class="feature-description">Vivez l'expérience Cobblemon Star Academy ! Entraînez-vous, relevez des défis et gagnez des compétitions pour devenir une star du monde Pokémon.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-container">
+                        <i class="fas fa-users feature-icon"></i>
+                    </div>
+                    <h3 class="feature-title">Communauté Amicale</h3>
+                    <p class="feature-description">Rejoignez une communauté accueillante et passionnée. Participez à des événements spéciaux et créez des liens avec d'autres dresseurs.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-container">
+                        <i class="fas fa-trophy feature-icon"></i>
+                    </div>
+                    <h3 class="feature-title">Combats & Tournois</h3>
+                    <p class="feature-description">Affrontez d'autres joueurs dans des combats Pokémon épiques et participez à des tournois avec des récompenses exclusives.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-container">
+                        <i class="fas fa-map feature-icon"></i>
+                    </div>
+                    <h3 class="feature-title">Monde Immersif</h3>
+                    <p class="feature-description">Explorez un monde riche et détaillé avec des biomes variés, des structures uniques et des Pokémon rares à découvrir.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-container">
+                        <i class="fas fa-cogs feature-icon"></i>
+                    </div>
+                    <h3 class="feature-title">Système Exclusif</h3>
+                    <p class="feature-description">Profitez de fonctionnalités uniques développées par la YM TEAM pour une expérience Cobblemon encore plus immersive et captivante.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-container">
+                        <i class="fas fa-calendar-alt feature-icon"></i>
+                    </div>
+                    <h3 class="feature-title">Événements Réguliers</h3>
+                    <p class="feature-description">Ne manquez pas nos événements avec des défis spéciaux !</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join Section -->
+    <section class="join-section" id="join">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Rejoindre <span class="gradient-text">l'aventure</span></h2>
+                <p class="section-subtitle">Prêt à commencer votre voyage en tant que dresseur Pokémon ?</p>
+            </div>
+            <div class="join-content">
+                <div class="server-info-card">
+                    <div class="server-card-header">
+                        <i class="fas fa-server"></i>
+                        <h3>Adresse du serveur</h3>
+                    </div>
+                    <button class="reveal-button" id="revealButton" aria-label="Révéler l'adresse IP">
+                        <i class="fas fa-eye"></i> 
+                        <span>Afficher l'adresse</span>
+                    </button>
+                    <div class="tooltip" id="tooltip">Adresse copiée !</div>
+                    <div class="server-version">
+                        <i class="fas fa-info-circle"></i>
+                        <span>Version recommandée : Minecraft Java 1.20.1 avec le mod Cobblemon</span>
+                    </div>
+                </div>
+                <div class="join-actions">
+                    <a href="https://discord.gg/Yys5D9YAY6" target="_blank" class="join-button discord-button">
+                        <i class="fab fa-discord"></i>
+                        <span>Rejoindre le Discord</span>
+                    </a>
+                    <a href="GuideInstall/guide.html" class="join-button install-button">
+                        <i class="fas fa-download"></i>
+                        <span>Guide d'installation</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Discord Popup -->
+    <div class="discord-popup" id="discordPopup">
+        <div class="popup-content">
+            <span class="close-popup" id="closePopupButton">&times;</span>
+            <h3>Rejoignez notre Discord</h3>
+            <p>Pour obtenir l'adresse du serveur, rejoignez notre Discord et consultez le salon Minecraft pour voir le message épinglé.</p>
+            <a href="https://discord.gg/Yys5D9YAY6" target="_blank" class="discord-button">
+                <i class="fab fa-discord"></i>
+                <span>Rejoindre le Discord</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Community Section -->
+    <section class="community-section" id="community">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Notre <span class="gradient-text">communauté</span></h2>
+                <p class="section-subtitle">Rejoignez des passionnés de Pokémon et Minecraft</p>
+            </div>
+            <div class="social-cards">
+                <div class="social-card discord-card">
+                    <div class="social-icon-container">
+                        <i class="fab fa-discord"></i>
+                    </div>
+                    <div class="social-content">
+                        <h3 class="social-title">Discord <span class="social-stats">256 membres</span></h3>
+                        <p class="social-description">Oh! Un Discord pour discuter avec la communauté, obtenir de l'aide et être informé des dernières nouveautés.</p>
+                        <a href="https://discord.gg/Xnt3mkF2yd" target="_blank" class="social-button">Rejoindre</a>
+                    </div>
+                    <div class="card-decoration"></div>
+                </div>
+                <div class="social-card youtube-card">
+                    <div class="social-icon-container">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <div class="social-content">
+                        <h3 class="social-title">YouTube <span class="social-stats">Vidéos & Tutoriels</span></h3>
+                        <p class="social-description">Consultez nos tutoriels, guides et moments forts des événements sur notre chaîne YouTube officielle.</p>
+                        <a href="https://www.youtube.com/@Yokomen" target="_blank" class="social-button">S'abonner</a>
+                    </div>
+                    <div class="card-decoration"></div>
+                </div>
+            </div>
+            <div class="community-stats">
+                <div class="stat-item">
+                    <div class="stat-value"><span class="counter" data-target="100">0</span>%</div>
+                    <div class="stat-label">Fun garanti</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value"><span class="counter" data-target="200">0</span>+</div>
+                    <div class="stat-label">Membres</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value"><span class="counter" data-target="24">0</span>/7</div>
+                    <div class="stat-label">Disponibilité</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contributeurs Section -->
+    <section class="contributeurs-section" id="contributeurs">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nos <span class="gradient-text">contributeurs</span></h2>
+                <p class="section-subtitle">Rencontrez l'équipe qui rend possible l'aventure Star Academy</p>
+            </div>
+            <div class="contributeurs-grid">
+                <div class="contributeur-card">
+                    <div class="contributeur-image">
+                        <img loading="lazy" src="media/Soda/SodaLogo.webp" alt="Sodamkho">
+                    </div>
+                    <div class="contributeur-info">
+                        <h3 class="contributeur-name">Sodamkho</h3>
+                        <div class="contributeur-social">
+                            <a href="https://www.twitch.tv/sodamkho" target="_blank" class="social-link twitch">
+                                <i class="fab fa-twitch"></i>
+                            </a>
+                            <a href="https://www.youtube.com/channel/UCP1p-5cRRU94byxAbNl-tSA" target="_blank" class="social-link youtube">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contributeur-card">
+                    <div class="contributeur-image">
+                        <img loading="lazy" src="media/Volko/volkoLOGO.webp" alt="Volko">
+                    </div>
+                    <div class="contributeur-info">
+                        <h3 class="contributeur-name">Volko</h3>
+                        <div class="contributeur-social">
+                            <a href="https://www.twitch.tv/volkk0" target="_blank" class="social-link twitch">
+                                <i class="fab fa-twitch"></i>
+                            </a>
+                            <a href="https://www.youtube.com/channel/UC1tI5ZumsnoP9RPoq5IvcdA" target="_blank" class="social-link youtube">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contributeur-card">
+                    <div class="contributeur-image">
+                        <img loading="lazy" src="media/NightFox/nightfoxLOGO.webp" alt="Night Fox">
+                    </div>
+                    <div class="contributeur-info">
+                        <h3 class="contributeur-name">Night Fox</h3>
+                    </div>
+                </div>
+                <div class="contributeur-card">
+                    <div class="contributeur-image">
+                        <img loading="lazy" src="media/Noirzazat/NoirzazatLogo.webp" alt="Noirzazat">
+                    </div>
+                    <div class="contributeur-info">
+                        <h3 class="contributeur-name">Noirzazat</h3>
+                    </div>
+                </div>
+                <div class="contributeur-card">
+                    <div class="contributeur-image">
+                        <img loading="lazy" src="media/madara/madaraLogo.webp" alt="Madara">
+                    </div>
+                    <div class="contributeur-info">
+                        <h3 class="contributeur-name">Madara</h3>
+                    </div>
+                </div>
+                <div class="contributeur-card">
+                    <div class="contributeur-image">
+                        <img loading="lazy" src="media/Traxxouu/traxxouu.webp" alt="Traxxouu">
+                    </div>
+                    <div class="contributeur-info">
+                        <h3 class="contributeur-name">Traxxouu</h3>
+                        <div class="contributeur-social">
+                            <a href="https://www.twitch.tv/traxxouu" target="_blank" class="social-link twitch">
+                                <i class="fab fa-twitch"></i>
+                            </a>
+                            <a href="https://github.com/traxxouu" target="_blank" class="social-link github">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Questions <span class="gradient-text">fréquentes</span></h2>
+                <p class="section-subtitle">Tout ce que vous devez savoir pour commencer votre aventure</p>
+            </div>
+            <div class="faq-container">
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <h3>Comment installer Cobblemon ?</h3>
+                            <div class="accordion-icon">
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Pour installer Cobblemon, assurez-vous d'avoir Forge ou Fabric (selon votre préférence), puis placez le mod Cobblemon dans votre dossier mods. Consultez notre <a href="GuideInstall/guide.html">guide d'installation</a> pour plus d'informations.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <h3>Quelles sont les règles du serveur ?</h3>
+                            <div class="accordion-icon">
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Nous vous invitons à consulter le <a href="Reglement/reglement.html">règlement</a> pour connaître toutes nos règles (respect, fair-play, etc.).</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <h3>Comment rejoindre la communauté ?</h3>
+                            <div class="accordion-icon">
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Rejoignez notre <a href="https://discord.gg/Yys5D9YAY6" target="_blank">Discord</a> où vous trouverez des annonces, de l'aide et bien plus encore !</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Notre <span class="gradient-text">galerie</span></h2>
+                <p class="section-subtitle">Découvrez le serveur en images</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img loading="lazy" src="media/galerie/base.png" alt="Exemple de paysage Minecraft sur le serveur Cobblemon">
+                    <div class="gallery-overlay">
+                        <div class="gallery-icon"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img loading="lazy" src="media/galerie/telhome.png" alt="Exemple de paysage Minecraft sur le serveur Cobblemon">
+                    <div class="gallery-overlay">
+                        <div class="gallery-icon"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img loading="lazy" src="media/galerie/arene.png" alt="Vue aérienne d'une arène Pokémon dans Minecraft">
+                    <div class="gallery-overlay">
+                        <div class="gallery-icon"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="lightbox" id="lightbox">
+                <div class="lightbox-content">
+                    <span class="close-lightbox">&times;</span>
+                    <img id="lightbox-img" src="" alt="Image agrandie">
+                    <div class="lightbox-caption" id="lightbox-caption"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="news-section" id="news">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Dernières <span class="gradient-text">nouveautés</span></h2>
+                <p class="section-subtitle">Restez informé des mises à jour et événements à venir</p>
+            </div>
+            <div class="news-grid">
+                <article class="news-card">
+                    <div class="news-content">
+                        <h3 class="news-title">📢 Annonce – Nouveau Serveur Disponible ! 🎉</h3>
+                        <div class="news-excerpt">
+                            <p>Chers joueurs,</p>
+                            <p>🔥 Le serveur est enfin en ligne ! 🔥</p>
+                            <p>Après beaucoup de travail, nous sommes heureux de vous accueillir sur cette toute nouvelle version, plus stable, plus fluide et optimisée pour une meilleure expérience de jeu. 🎮</p>
+                            
+                            <p>⚠️ Règles du serveur – À respecter impérativement ! ⚠️</p>
+                            <p>Pour que tout le monde puisse profiter du jeu dans les meilleures conditions, voici les règles à suivre :</p>
+                            
+                            <ul class="rules-list">
+                                <li><i class="fas fa-check-circle"></i> Respect des constructions – Les structures du serveur sont là pour tous</li>
+                                <li><i class="fas fa-check-circle"></i> Respect et politesse – Pas d'insultes ou de harcèlement</li>
+                                <li><i class="fas fa-check-circle"></i> Pas de cheat ni d'exploitation de bugs</li>
+                                <li><i class="fas fa-check-circle"></i> Pas de griefing – Respectez les constructions des autres</li>
+                                <li><i class="fas fa-check-circle"></i> Préservation de l'environnement</li>
+                                <li><i class="fas fa-check-circle"></i> Évitez les farms abusives</li>
+                                <li><i class="fas fa-check-circle"></i> Commerce équitable entre joueurs</li>
+                                <li><i class="fas fa-check-circle"></i> Jeu en communauté – Entraide et collaboration</li>
+                            </ul>
+                            
+                            <p>Nous comptons sur vous pour respecter ces règles et garantir une bonne ambiance sur le serveur ! 🎭</p>
+                            
+                            <p>🚀 Rejoignez-nous dès maintenant et lancez-vous dans cette nouvelle aventure ! On a hâte de vous voir en jeu.</p>
+                            
+                            <p>🎮🔥 Bon jeu à tous ! 🔥🎮</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-waves">
+            <div class="wave wave1"></div>
+            <div class="wave wave2"></div>
+        </div>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <img src="media/logoYMTEAM.webp" alt="Logo de la YM TEAM">
+                    <div class="footer-about">
+                        <p>Rejoignez l'aventure Cobblemon Star Academy et devenez une légende dans le monde des dresseurs Pokémon !</p>
+                        <div class="footer-social">
+                            <a href="https://discord.gg/Yys5D9YAY6" target="_blank" class="footer-social-link">
+                                <i class="fab fa-discord"></i>
+                            </a>
+                            <a href="https://www.youtube.com/@Yokomen" target="_blank" class="footer-social-link">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                            <a href="https://www.twitch.tv/ymteam" target="_blank" class="footer-social-link">
+                                <i class="fab fa-twitch"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-links-container">
+                    <div class="footer-links">
+                        <h3>Liens rapides</h3>
+                        <ul>
+                            <li><a href="#home"><i class="fas fa-home"></i> Accueil</a></li>
+                            <li><a href="#server"><i class="fas fa-server"></i> Serveur</a></li>
+                            <li><a href="#join"><i class="fas fa-sign-in-alt"></i> Rejoindre</a></li>
+                            <li><a href="#community"><i class="fas fa-users"></i> Communauté</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links">
+                        <h3>Communauté</h3>
+                        <ul>
+                            <li><a href="https://discord.gg/Yys5D9YAY6" target="_blank"><i class="fab fa-discord"></i> Discord</a></li>
+                            <li><a href="https://www.twitch.tv/ymteam" target="_blank"><i class="fab fa-twitch"></i> Twitch</a></li>
+                            <li><a href="https://www.youtube.com/@Yokomen" target="_blank"><i class="fab fa-youtube"></i> YouTube</a></li>
+                            <li><a href="Reglement/reglement.html"><i class="fas fa-scroll"></i> Règlement</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links">
+                        <h3>Support</h3>
+                        <ul>
+                            <li><a href="#" id="helpLink"><i class="fas fa-question-circle"></i> Aide</a></li>
+                            <li><a href="#" id="contactLink"><i class="fas fa-envelope"></i> Contact</a></li>
+                            <li><a href="#" id="bugReport"><i class="fas fa-bug"></i> Signaler un bug</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>&copy; 2025 YM TEAM. Tous droits réservés. Minecraft est une marque déposée de Mojang Studios.</p>
+                </div>
+                <div class="credits">
+                    <p>Site by <a href="https://github.com/traxxouu" target="_blank" class="dev-credit">Traxxouu <i class="fab fa-github"></i></a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

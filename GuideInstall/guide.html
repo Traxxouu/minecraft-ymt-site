@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Guide d'installation du modpack Cobblemon Star Academy pour rejoindre le serveur YM TEAM.">
+    <meta name="keywords" content="Minecraft, Pokémon, Cobblemon, Star Academy, YM TEAM, installation, modpack, CurseForge">
+    <meta name="author" content="YM TEAM">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Guide d'installation Cobblemon Star Academy | YM TEAM">
+    <meta property="og:description" content="Apprenez à installer le modpack Cobblemon Star Academy et rejoindre le serveur YM TEAM">
+    <meta property="og:image" content="https://minecraft-ymt-server.netlify.app/media/social-preview.webp">
+    <link rel="icon" type="image/webp" href="../media/logoYMTEAM.webp">
+    <link rel="shortcut icon" type="image/webp" href="../media/logoYMTEAM.webp">
+    <link rel="apple-touch-icon" href="../media/logoYMTEAM.webp">
+    <title>Guide d'installation - Cobblemon Star Academy | YM TEAM</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="guide.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="pokeball-loader">
+            <div class="pokeball">
+                <div class="pokeball-button"></div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+    
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-container">
+            <a href="../index.html" class="logo">
+                <img src="../media/logoYMTEAM.webp" alt="Logo de la YM TEAM">
+                <div class="logo-text">YM <span>TEAM</span></div>
+            </a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="../index.html" class="nav-link">Accueil</a></li>
+                    <li><a href="../index.html#server" class="nav-link">Serveur</a></li>
+                    <li><a href="../Reglement/reglement.html" class="nav-link">Règlement</a></li>
+                    <li><a href="../index.html#join" class="nav-link">Rejoindre</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-container">
+            <ul>
+                <li><a href="../index.html" class="mobile-link">Accueil</a></li>
+                <li><a href="../index.html#server" class="mobile-link">Serveur</a></li>
+                <li><a href="../Reglement/reglement.html" class="mobile-link">Règlement</a></li>
+                <li><a href="../index.html#join" class="mobile-link">Rejoindre</a></li>
+            </ul>
+            <div class="mobile-social">
+                <a href="https://discord.gg/Yys5D9YAY6" target="_blank" class="social-icon discord">
+                    <i class="fab fa-discord"></i>
+                </a>
+                <a href="https://www.youtube.com/@Yokomen" target="_blank" class="social-icon youtube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="https://www.twitch.tv/ymteam" target="_blank" class="social-icon twitch">
+                    <i class="fab fa-twitch"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <div class="page-header">
+                <div class="title-icon-container">
+                    <i class="fas fa-book-reader title-icon"></i>
+                </div>
+                <h1 class="page-title">Guide d'Installation <span class="gradient-text">Cobblemon Star Academy</span></h1>
+                <p class="page-subtitle">Suivez ces instructions pour rejoindre l'aventure</p>
+            </div>
+
+            <div class="requirements-card">
+                <div class="requirements-header">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>Configuration requise</h3>
+                </div>
+                <ul class="requirements-list">
+                    <li><i class="fas fa-cube"></i> Minecraft Java Edition (Version recommandée : 1.20.1)</li>
+                    <li><i class="fas fa-memory"></i> 4 Go de RAM minimum (8 Go recommandés)</li>
+                    <li><i class="fas fa-microchip"></i> Processeur : Intel Core i5 / AMD Ryzen 5 ou équivalent</li>
+                    <li><i class="fas fa-hdd"></i> Espace disque : au moins 2 Go d'espace libre</li>
+                    <li><i class="fas fa-wifi"></i> Connexion Internet stable pour le téléchargement des mods</li>
+                </ul>
+            </div>
+
+            <div class="installation-tabs">
+                <button class="tab-button active" data-tab="curseforge">
+                    <i class="fas fa-download"></i>
+                    <span>Installation via CurseForge</span>
+                </button>
+                <button class="tab-button" data-tab="server">
+                    <i class="fas fa-server"></i>
+                    <span>Connexion au Serveur</span>
+                </button>
+            </div>
+
+            <div id="curseforge" class="tab-content active">
+                <div class="installation-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Télécharger et installer CurseForge</h3>
+                        <p class="step-description">Commencez par télécharger le launcher CurseForge qui vous permettra d'installer facilement notre modpack.</p>
+                        <a href="https://www.curseforge.com/download/app" target="_blank" class="download-button">
+                            <i class="fas fa-download"></i> 
+                            <span>Télécharger CurseForge</span>
+                        </a>
+                        
+                        <div class="note-box">
+                            <div class="note-icon">
+                                <i class="fas fa-info-circle"></i>
+                            </div>
+                            <div class="note-content">
+                                <p><strong>Note :</strong> Si vous avez déjà CurseForge installé, assurez-vous qu'il est à jour avec la dernière version.</p>
+                            </div>
+                        </div>
+                        
+                        <img src="media/curseforge/image1.png" alt="Installation de CurseForge" class="step-image">
+                    </div>
+                </div>
+
+                <div class="installation-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Ouvrir CurseForge et sélectionner Minecraft</h3>
+                        <p class="step-description">Une fois CurseForge installé, lancez l'application et sélectionnez standard.</p>
+                        <img src="media/curseforge/image2.png" alt="Sélection de Standard" class="step-image">
+                    </div>
+                </div>
+
+                <div class="installation-step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Rechercher et installer Cobblemon Star Academy</h3>
+                        <p class="step-description">Dans l'onglet "Parcourir les modpacks", recherchez "Cobblemon Star Academy" puis cliquez sur le modpack pour l'installer.</p>
+                        
+                        <div class="tip-box">
+                            <div class="tip-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <div class="tip-content">
+                                <p><strong>Astuce :</strong> Vous pouvez utiliser la barre de recherche en haut à droite pour trouver rapidement le modpack.</p>
+                            </div>
+                        </div>
+                        
+                        <img src="media/curseforge/image3.png" alt="Recherche du modpack Cobblemon Star Academy" class="step-image">
+                    </div>
+                </div>
+
+                <div class="installation-step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Installer le modpack</h3>
+                        <p class="step-description">Cliquez sur le bouton "Installer" et attendez que le téléchargement et l'installation se terminent. Cette étape peut prendre plusieurs minutes selon votre connexion internet.</p>
+                        
+                        <div class="warning-box">
+                            <div class="warning-icon">
+                                <i class="fas fa-exclamation-triangle"></i>
+                            </div>
+                            <div class="warning-content">
+                                <p><strong>Attention :</strong> Ne fermez pas CurseForge pendant l'installation et assurez-vous d'avoir suffisamment d'espace disque.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="installation-step">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Lancer le modpack</h3>
+                        <p class="step-description">Une fois l'installation terminée, le modpack apparaîtra dans votre bibliothèque. Cliquez sur "Jouer" pour lancer le jeu.</p>
+                        
+                        <div class="tip-box">
+                            <div class="tip-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <div class="tip-content">
+                                <p><strong>Astuce :</strong> Si c'est la première fois que vous lancez le modpack, l'initialisation peut prendre un peu plus de temps. Soyez patient !</p>
+                            </div>
+                        </div>
+                        
+                        <img src="media/curseforge/image4.png" alt="Lancement du modpack" class="step-image">
+                    </div>
+                </div>
+            </div>
+
+            <div id="server" class="tab-content">
+                <div class="installation-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Lancer le modpack Cobblemon Star Academy</h3>
+                        <p class="step-description">Assurez-vous d'avoir installé le modpack en suivant les étapes précédentes et lancez-le depuis CurseForge.</p>
+                        
+                        <div class="warning-box">
+                            <div class="warning-icon">
+                                <i class="fas fa-exclamation-triangle"></i>
+                            </div>
+                            <div class="warning-content">
+                                <p><strong>Important :</strong> Vérifiez que vous utilisez bien la version correcte du modpack (version 1.20.1). Une version incorrecte ne pourra pas se connecter au serveur.</p>
+                            </div>
+                        </div>
+                        
+                        <img src="media/serveur/image1.png" alt="Lancement du jeu" class="step-image">
+                    </div>
+                </div>
+
+                <div class="installation-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Accéder au menu multijoueur</h3>
+                        <p class="step-description">Une fois le jeu chargé, cliquez sur "Multijoueur" dans le menu principal pour accéder à la liste des serveurs.</p>
+                        
+                        <div class="tip-box">
+                            <div class="tip-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <div class="tip-content">
+                                <p><strong>Astuce :</strong> Le premier chargement du modpack peut prendre plusieurs minutes. Soyez patient, c'est normal !</p>
+                            </div>
+                        </div>
+                        
+                        <img src="media/serveur/image2.png" alt="Menu principal Minecraft" class="step-image">
+                    </div>
+                </div>
+
+                <div class="installation-step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Ajouter notre serveur</h3>
+                        <p class="step-description">Dans l'écran multijoueur, cliquez sur "Ajouter un serveur" puis entrez les informations suivantes :</p>
+                        
+                        <div class="server-info">
+                            <div class="server-info-item">
+                                <span class="info-label">Nom du serveur :</span>
+                                <span class="info-value">Cobblemon Star Academy YMT</span>
+                            </div>
+                            <div class="server-info-item">
+                                <span class="info-label">Adresse du serveur :</span>
+                                <button class="reveal-button" id="revealButton" aria-label="Révéler l'adresse IP">
+                                    <i class="fas fa-eye"></i> 
+                                    <span>Afficher l'adresse</span>
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <p class="step-description">Une fois les informations saisies, cliquez sur "Terminé" pour enregistrer le serveur.</p>
+                        <img src="media/serveur/image3.png" alt="Ajout du serveur" class="step-image">
+                    </div>
+                </div>
+
+                <div class="installation-step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Rejoindre le serveur</h3>
+                        <p class="step-description">Sélectionnez le serveur Cobblemon Star Academy YMT dans votre liste, puis cliquez sur "Rejoindre le serveur" pour vous connecter.</p>
+                        
+                        <div class="tip-box">
+                            <div class="tip-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <div class="tip-content">
+                                <p><strong>Astuce :</strong> N'hésitez pas à ajouter le serveur à vos favoris en cliquant sur l'étoile pour y accéder plus facilement la prochaine fois.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+            <div class="action-buttons">
+                <a href="https://discord.gg/Yys5D9YAY6" target="_blank" class="discord-button">
+                    <i class="fab fa-discord"></i> Rejoindre le Discord
+                </a>
+                <a href="../index.html" class="back-button">
+                    <i class="fas fa-home"></i> Retour à l'accueil
+                </a>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="../media/logoYMTEAM.webp" alt="Logo de la YM TEAM">
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; 2025 YM TEAM. Tous droits réservés.</p>
+                    <p>Site by <a href="https://github.com/traxxouu" target="_blank">Traxxouu <i class="fab fa-github"></i></a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+    
+    <!-- Image Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img id="lightbox-img" src="" alt="">
+    </div>
+    
+    <!-- Discord Popup -->
+    <div class="discord-popup" id="discordPopup">
+        <div class="popup-content">
+            <span class="close-popup" id="closePopupButton">&times;</span>
+            <h3>Rejoignez notre Discord</h3>
+            <p>Pour obtenir l'adresse du serveur, rejoignez notre Discord et consultez le salon Minecraft pour voir le message épinglé.</p>
+            <a href="https://discord.gg/Yys5D9YAY6" target="_blank" class="discord-button">
+                <i class="fab fa-discord"></i>
+                <span>Rejoindre le Discord</span>
+            </a>
+        </div>
+    </div>
+    
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="guide.js"></script>
+</body>
+</html>
